@@ -1,0 +1,261 @@
+* h2 {
+    text-decoration: underline;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+video {
+    width: auto;
+    height: 19vh;
+    display: flex;
+    justify-self: center;
+}
+
+#video_presentacion {
+    width: auto;
+    height: 65vh;
+    display: flex;
+    justify-self: center;
+    margin-bottom: 10px;
+}
+
+#nosotros_video {
+    width: 100vh;
+    height: 52vh;
+    opacity: 40%;
+    display: flex;
+    justify-self: center;
+}
+
+nav {
+    justify-self: center;
+}
+
+a {
+    border-style: double;
+    color: black;
+    text-decoration: none;
+    font-size: 3vh;
+
+}
+
+a:hover {
+    color: white;
+    background: linear-gradient(90deg, rgb(136, 136, 136) 0%, rgb(0, 0, 0) 50%, rgb(136, 136, 136) 100%);
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    border-style: double;
+}
+
+img {
+    display: flex;
+    justify-self: center;
+    width: 100vh;
+    height: 52vh;
+}
+
+#subir,
+#subir1,
+#subir2,
+#subir3 {
+    font-size: 2vh;
+    opacity: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 20px);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: subir 1.5s ease-out forwards;
+}
+
+@keyframes subir {
+    to {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
+}
+
+#subir1 {
+    top: 85%;
+    left: 50%;
+}
+
+@keyframes subir1 {
+    to {
+        opacity: 1;
+        transform: translate(-50%, 0%);
+    }
+}
+
+#subir2 {
+    top: 140%;
+    left: 50%;
+}
+
+@keyframes subir2 {
+    to {
+        opacity: 1;
+        transform: translate(-50%, 0%);
+    }
+}
+
+#subir3 {
+    top: 195%;
+    left: 50%;
+}
+
+@keyframes subir3 {
+    to {
+        opacity: 1;
+        transform: translate(-50%, 0%);
+    }
+}
+
+#subirN1 {
+    font-size: 2.5vh;
+    opacity: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    right: -20%;
+    transform: translate(-50%, 20px);
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    animation: subir 1.5s ease-out forwards;
+}
+
+@keyframes subirN1 {
+    to {
+        opacity: 1;
+        transform: translate(-50%, 0%);
+    }
+}
+
+#parte1 {
+    text-decoration: none;
+    font-size: 2vh;
+    margin-top: 2vh;
+}
+
+#boton_servicios {
+
+    border-style: double;
+    color: rgb(255, 255, 255);
+}
+
+#boton_servicios:hover {
+    color: white;
+}
+
+.whatsapp-float,
+.instagram-float {
+    position: fixed;
+    width: 6vh;
+    height: 6vh;
+    bottom: 2vh;
+    right: 2vh;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 4vh;
+    box-shadow: 0.5vh 0.5vh 0.5vh rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.instagram-float {
+    background-color: #E1306C;
+    transition: transform 0.3s ease;
+    right: 10vh;
+}
+
+.whatsapp-float:hover,
+.instagram-float:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp-float img,
+.instagram-float img {
+    width: 4vh;
+    height: 4vh;
+}
+
+#cuerpo {
+    border-style: double;
+}
+
+form {
+    justify-items: center;
+    font-size: 2vh;
+    text-align: center;
+}
+
+#maquina {
+    text-align: center;
+    width: 35vh;
+    border-style: double;
+    margin-bottom: 0px;
+    background-color: rgb(231, 231, 231);
+}
+
+input,
+textarea {
+    width: 35vh;
+    border-style: double;
+    border-radius: 4px;
+    text-align: center;
+    transition: 0.3s ease, transform 0.2s ease;
+    font-size: 1.5vh;
+}
+
+input:focus,
+textarea:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.02);
+}
+
+#boton {
+    display: flex;
+    justify-self: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-style: double;
+    cursor: pointer;
+    transition: 0.3s ease, color 0.3s ease;
+    padding: 1.5vh;
+}
+
+#boton:hover {
+    color: white;
+    background: linear-gradient(90deg, rgb(136, 136, 136) 0%, rgb(0, 0, 0) 50%, rgb(136, 136, 136) 100%);
+}
+
+footer {
+    color: black;
+    justify-items: center;
+    text-align: center;
+    font-size: 2vh;
+}
+
+#copy {
+    width: 35vh;
+    border-style: none;
+    margin-bottom: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+#nlt {
+    font-size: 1.6vh;
+}
