@@ -30,7 +30,14 @@ video {
 }
 
 nav {
-    justify-self: center;
+    position: fixed;
+    top: 3%;
+    left: 1%;
+    width: 12%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 a {
@@ -44,6 +51,12 @@ a {
 a:hover {
     color: white;
     background: linear-gradient(90deg, rgb(136, 136, 136) 0%, rgb(0, 0, 0) 50%, rgb(136, 136, 136) 100%);
+}
+
+.menu {
+    color: black;
+    margin-top: 4%;
+    padding: 2%;
 }
 
 hr {
@@ -83,7 +96,7 @@ img {
 }
 
 #subir1 {
-    top: 85%;
+    top: 80%;
     left: 50%;
 }
 
@@ -95,7 +108,7 @@ img {
 }
 
 #subir2 {
-    top: 140%;
+    top: 135%;
     left: 50%;
 }
 
@@ -107,7 +120,7 @@ img {
 }
 
 #subir3 {
-    top: 195%;
+    top: 190%;
     left: 50%;
 }
 
