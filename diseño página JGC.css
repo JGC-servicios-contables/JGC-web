@@ -4,35 +4,34 @@ h3 {
 }
 
 video {
-    width: 35vh;
-    height: 20vh;
+    width: 80vw;
     display: flex;
     justify-self: center;
 }
 
-#video_presentacion {
-    width: 90%;
-    height: 100%;
+#cabecera {
+    width: 50vw;
+    height: 15vw;
     display: flex;
+    justify-self: center;
 }
 
+
 #nosotros_video {
-    width: 100vh;
-    height: 52vh;
     opacity: 40%;
-    display: flex;
 }
 
 nav {
     position: fixed;
-    top: 3%;
-    left: 1%;
-    width: 14vh;
+    color: white;
+    top: 2vw;
+    left: 3vw;
+    text-align: center;
+    font-size: 2.5vw;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    z-index: 10;
-    font-size: 3vh;
+    justify-content: center;
+    transition: transform 0.3s ease;
 }
 
 a {
@@ -49,25 +48,24 @@ a:hover {
 
 .menu {
     color: black;
-    margin-top: 4%;
-    padding: 2%;
+    margin-top: 0.5vw;
 }
 
 hr {
     width: 100%;
-    height: 1px;
+    height: 0.1vw;
     border-style: double;
 }
 
 img {
     display: flex;
     justify-self: center;
-    width: 90%;
-    height: 52vh;
+    width: 90vw;
+    height: 40vw;
 }
 
-#seccionserv {
-    flex-direction: column;
+#nosotros {
+    width: 100%;
 }
 
 #subir,
@@ -76,25 +74,17 @@ img {
 #subir3,
 #subirN1 {
     flex-direction: column;
-    font-size: 2vh;
+    font-size: 1.5vw;
     opacity: 0;
     position: absolute;
-    transform: translateX(-20em) translateY(5em);
+    transform: translateX(-10%) translateY(5%);
     text-align: center;
     animation: subir 1.5s ease-out forwards;
     color: white;
-    margin-top: -20em;
+    margin-top: -35%;
     background-color: rgba(0, 0, 0, 0.5);
-    left: 50%;
-    right: -20%;
-}
-
-#subirN1 {
-    right: auto;
-    background-color: rgba(255, 255, 255, 0.5);
-    color: black;
-    left: 50%;
-    right: -40%;
+    margin-left: 50%;
+    margin-right: -20%;
 }
 
 @keyframes subir {
@@ -104,10 +94,8 @@ img {
     }
 }
 
-#parte1 {
-    text-decoration: none;
-    font-size: 2vh;
-    margin-top: 2vh;
+#seccionserv {
+    flex-direction: column;
 }
 
 #boton_servicios {
@@ -123,16 +111,16 @@ img {
 .whatsapp-float,
 .instagram-float {
     position: fixed;
-    width: 6vh;
-    height: 6vh;
-    bottom: 2vh;
-    right: 2vh;
+    width: 6vw;
+    height: 6vw;
+    bottom: 2vw;
+    right: 2vw;
     background-color: #25D366;
     color: white;
-    border-radius: 50%;
+    border-radius: 50vw;
     text-align: center;
-    font-size: 4vh;
-    box-shadow: 0.5vh 0.5vh 0.5vh rgba(0, 0, 0, 0.3);
+    font-size: 4vw;
+    box-shadow: 0.5vw 0.5vw 0.5vw rgba(0, 0, 0, 0.3);
     z-index: 100;
     display: flex;
     align-items: center;
@@ -143,7 +131,7 @@ img {
 .instagram-float {
     background-color: #E1306C;
     transition: transform 0.3s ease;
-    right: 10vh;
+    right: 10vw;
 }
 
 .whatsapp-float:hover,
@@ -153,8 +141,8 @@ img {
 
 .whatsapp-float img,
 .instagram-float img {
-    width: 4vh;
-    height: 4vh;
+    width: 4vw;
+    height: 4vw;
 }
 
 #cuerpo {
@@ -163,13 +151,13 @@ img {
 
 form {
     justify-items: center;
-    font-size: 2vh;
+    font-size: 2vw;
     text-align: center;
 }
 
 #maquina {
     text-align: center;
-    width: 35vh;
+    width: 35vw;
     border-style: double;
     margin-bottom: 0px;
     background-color: rgb(231, 231, 231);
@@ -177,12 +165,12 @@ form {
 
 input,
 textarea {
-    width: 35vh;
+    width: 35vw;
     border-style: double;
     border-radius: 4px;
     text-align: center;
     transition: 0.3s ease, transform 0.2s ease;
-    font-size: 1.5vh;
+    font-size: 1.5vw;
 }
 
 input:focus,
@@ -199,7 +187,7 @@ textarea:focus {
     border-style: double;
     cursor: pointer;
     transition: 0.3s ease, color 0.3s ease;
-    padding: 1.5vh;
+    padding: 1.5vw;
 }
 
 #boton:hover {
@@ -211,16 +199,16 @@ footer {
     color: black;
     justify-items: center;
     text-align: center;
-    font-size: 2vh;
+    font-size: 2vw;
 }
 
 #copy {
-    width: 35vh;
+    width: 35vw;
     border-style: none;
     margin-bottom: 2px;
     background-color: rgb(255, 255, 255);
 }
 
 #nlt {
-    font-size: 1.6vh;
+    font-size: 1.6vw;
 }
