@@ -147,6 +147,7 @@ img {
 
 #cuerpo {
     border-style: double;
+    width: 100%;
 }
 
 form {
